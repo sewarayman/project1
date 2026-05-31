@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="./assets/css/output.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="py-5 px-6 md:px-0 top-0 shadow-lg">
+        <div class="container mx-auto row justify-between">
+            <div class=" sm:gap-20 lg:gap-28 row">
+                <a href="./index.html" class="mx-auto mr-2 md:mr-0 nav-link"> back </a>
+                <a href="#" class="text-3xl">Sewar Fashion</a>
+                <ul class=" gap-7 hidden md:row md:mr-2">
+                    <li>
+                        <a href="./index.html" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex gap-4">
+                <input class="placeholder:text-gray-500 placeholder:italic border 
+                              border-forground rounded-2xl px-2 hidden md:row" placeholder="Search for anything..." type="text"
+                    name="search" />
+                <a href="./login.html" class="log">Login</a>
+                <a href="#" class="log hidden md:row"><img src="./assets/css/images/shopss.png" class="w-7 mt-1" /></a>
+
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero h-[calc(100vh-76px)]">
+            <form class="max-w-xl mx-auto bg-white p-8 rounded-2xl shadow-2xl space-y-4 mt-9">
+
+                <h2 class="text-3xl font-bold text-center text-[#56412D] mb-6">
+                    Create Account
+                </h2>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <input type="text" placeholder="First Name" required
+                        class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8E7258]">
+
+                    <input type="text" placeholder="Last Name" required
+                        class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8E7258]">
+                </div>
+
+                <input type="email" placeholder="Email Address" required
+                    class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8E7258]">
+
+                <input type="tel" placeholder="Phone Number" required
+                    class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8E7258]">
+
+                <input type="password" placeholder="Password" required minlength="8"
+                    class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8E7258]">
+
+                <textarea rows="4" placeholder="Notes..." required
+                    class="w-full p-3 border border-gray-300 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-[#8E7258]"></textarea>
+
+                <button type="submit"
+                    class="w-full bg-[#56412D] text-white py-3 rounded-lg font-medium hover:bg-[#8E7258] transition duration-300">
+                    Create Account
+                </button>
+
+            </form>
+
+
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
